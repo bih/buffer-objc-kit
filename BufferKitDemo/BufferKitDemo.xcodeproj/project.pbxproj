@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9443BD5118EB9084009401A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9443BD5018EB9084009401A4 /* Foundation.framework */; };
+		9443BD5318EB9084009401A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9443BD5218EB9084009401A4 /* CoreGraphics.framework */; };
+		9443BD5518EB9084009401A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9443BD5418EB9084009401A4 /* UIKit.framework */; };
+		9443BD5B18EB9084009401A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9443BD5918EB9084009401A4 /* InfoPlist.strings */; };
+		9443BD5D18EB9084009401A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9443BD5C18EB9084009401A4 /* main.m */; };
+		9443BD6118EB9084009401A4 /* BFKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9443BD6018EB9084009401A4 /* BFKAppDelegate.m */; };
+		9443BD6418EB9084009401A4 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9443BD6218EB9084009401A4 /* Main_iPhone.storyboard */; };
+		9443BD6718EB9084009401A4 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9443BD6518EB9084009401A4 /* Main_iPad.storyboard */; };
+		9443BD6A18EB9084009401A4 /* BFKMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9443BD6918EB9084009401A4 /* BFKMasterViewController.m */; };
+		9443BD6D18EB9084009401A4 /* BFKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9443BD6C18EB9084009401A4 /* BFKDetailViewController.m */; };
+		9443BD6F18EB9084009401A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9443BD6E18EB9084009401A4 /* Images.xcassets */; };
+		9443BD7618EB9084009401A4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9443BD7518EB9084009401A4 /* XCTest.framework */; };
+		9443BD7718EB9084009401A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9443BD5018EB9084009401A4 /* Foundation.framework */; };
+		9443BD7818EB9084009401A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9443BD5418EB9084009401A4 /* UIKit.framework */; };
+		9443BD8018EB9084009401A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9443BD7E18EB9084009401A4 /* InfoPlist.strings */; };
+		9443BD8218EB9084009401A4 /* BufferKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9443BD8118EB9084009401A4 /* BufferKitDemoTests.m */; };
+		9443BD9318EB9132009401A4 /* BFKClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9443BD9218EB9132009401A4 /* BFKClient.m */; };
+		9443BDD618EB9544009401A4 /* BFKClient+BFKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9443BDD518EB9544009401A4 /* BFKClient+BFKUser.m */; };
+		9443BDD918EB9624009401A4 /* BFKClient+BFKProfiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 9443BDD818EB9624009401A4 /* BFKClient+BFKProfiles.m */; };
+		9443BDDC18EB9725009401A4 /* BFKClient+BFKUpdates.m in Sources */ = {isa = PBXBuildFile; fileRef = 9443BDDB18EB9725009401A4 /* BFKClient+BFKUpdates.m */; };
+		9443BDDF18EB98B7009401A4 /* BFKClient+BFKInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9443BDDE18EB98B7009401A4 /* BFKClient+BFKInfo.m */; };
+		FA971765C9ED42AB8567D97D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D814EEEB5824FA494551667 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9443BD7918EB9084009401A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9443BD4518EB9084009401A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9443BD4C18EB9084009401A4;
+			remoteInfo = BufferKitDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1664945EC58A47E9A16A58C5 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		8D814EEEB5824FA494551667 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9443BD4D18EB9084009401A4 /* BufferKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BufferKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9443BD5018EB9084009401A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9443BD5218EB9084009401A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9443BD5418EB9084009401A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9443BD5818EB9084009401A4 /* BufferKitDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BufferKitDemo-Info.plist"; sourceTree = "<group>"; };
+		9443BD5A18EB9084009401A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9443BD5C18EB9084009401A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9443BD5E18EB9084009401A4 /* BufferKitDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BufferKitDemo-Prefix.pch"; sourceTree = "<group>"; };
+		9443BD5F18EB9084009401A4 /* BFKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFKAppDelegate.h; sourceTree = "<group>"; };
+		9443BD6018EB9084009401A4 /* BFKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFKAppDelegate.m; sourceTree = "<group>"; };
+		9443BD6318EB9084009401A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		9443BD6618EB9084009401A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		9443BD6818EB9084009401A4 /* BFKMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFKMasterViewController.h; sourceTree = "<group>"; };
+		9443BD6918EB9084009401A4 /* BFKMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFKMasterViewController.m; sourceTree = "<group>"; };
+		9443BD6B18EB9084009401A4 /* BFKDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFKDetailViewController.h; sourceTree = "<group>"; };
+		9443BD6C18EB9084009401A4 /* BFKDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFKDetailViewController.m; sourceTree = "<group>"; };
+		9443BD6E18EB9084009401A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9443BD7418EB9084009401A4 /* BufferKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BufferKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9443BD7518EB9084009401A4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9443BD7D18EB9084009401A4 /* BufferKitDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BufferKitDemoTests-Info.plist"; sourceTree = "<group>"; };
+		9443BD7F18EB9084009401A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9443BD8118EB9084009401A4 /* BufferKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BufferKitDemoTests.m; sourceTree = "<group>"; };
+		9443BD8C18EB90C0009401A4 /* BufferKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BufferKit.h; sourceTree = "<group>"; };
+		9443BD9118EB9132009401A4 /* BFKClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFKClient.h; sourceTree = "<group>"; };
+		9443BD9218EB9132009401A4 /* BFKClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFKClient.m; sourceTree = "<group>"; };
+		9443BDD418EB9544009401A4 /* BFKClient+BFKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BFKClient+BFKUser.h"; sourceTree = "<group>"; };
+		9443BDD518EB9544009401A4 /* BFKClient+BFKUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BFKClient+BFKUser.m"; sourceTree = "<group>"; };
+		9443BDD718EB9624009401A4 /* BFKClient+BFKProfiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BFKClient+BFKProfiles.h"; sourceTree = "<group>"; };
+		9443BDD818EB9624009401A4 /* BFKClient+BFKProfiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BFKClient+BFKProfiles.m"; sourceTree = "<group>"; };
+		9443BDDA18EB9725009401A4 /* BFKClient+BFKUpdates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BFKClient+BFKUpdates.h"; sourceTree = "<group>"; };
+		9443BDDB18EB9725009401A4 /* BFKClient+BFKUpdates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BFKClient+BFKUpdates.m"; sourceTree = "<group>"; };
+		9443BDDD18EB98B7009401A4 /* BFKClient+BFKInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BFKClient+BFKInfo.h"; sourceTree = "<group>"; };
+		9443BDDE18EB98B7009401A4 /* BFKClient+BFKInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BFKClient+BFKInfo.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9443BD4A18EB9084009401A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9443BD5318EB9084009401A4 /* CoreGraphics.framework in Frameworks */,
+				9443BD5518EB9084009401A4 /* UIKit.framework in Frameworks */,
+				9443BD5118EB9084009401A4 /* Foundation.framework in Frameworks */,
+				FA971765C9ED42AB8567D97D /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9443BD7118EB9084009401A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9443BD7618EB9084009401A4 /* XCTest.framework in Frameworks */,
+				9443BD7818EB9084009401A4 /* UIKit.framework in Frameworks */,
+				9443BD7718EB9084009401A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9443BD4418EB9084009401A4 = {
+			isa = PBXGroup;
+			children = (
+				9443BD8B18EB90A8009401A4 /* BufferKit */,
+				9443BD5618EB9084009401A4 /* BufferKitDemo */,
+				9443BD7B18EB9084009401A4 /* BufferKitDemoTests */,
+				9443BD4F18EB9084009401A4 /* Frameworks */,
+				9443BD4E18EB9084009401A4 /* Products */,
+				1664945EC58A47E9A16A58C5 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		9443BD4E18EB9084009401A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9443BD4D18EB9084009401A4 /* BufferKitDemo.app */,
+				9443BD7418EB9084009401A4 /* BufferKitDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9443BD4F18EB9084009401A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9443BD5018EB9084009401A4 /* Foundation.framework */,
+				9443BD5218EB9084009401A4 /* CoreGraphics.framework */,
+				9443BD5418EB9084009401A4 /* UIKit.framework */,
+				9443BD7518EB9084009401A4 /* XCTest.framework */,
+				8D814EEEB5824FA494551667 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9443BD5618EB9084009401A4 /* BufferKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9443BD5F18EB9084009401A4 /* BFKAppDelegate.h */,
+				9443BD6018EB9084009401A4 /* BFKAppDelegate.m */,
+				9443BD6218EB9084009401A4 /* Main_iPhone.storyboard */,
+				9443BD6518EB9084009401A4 /* Main_iPad.storyboard */,
+				9443BD6818EB9084009401A4 /* BFKMasterViewController.h */,
+				9443BD6918EB9084009401A4 /* BFKMasterViewController.m */,
+				9443BD6B18EB9084009401A4 /* BFKDetailViewController.h */,
+				9443BD6C18EB9084009401A4 /* BFKDetailViewController.m */,
+				9443BD6E18EB9084009401A4 /* Images.xcassets */,
+				9443BD5718EB9084009401A4 /* Supporting Files */,
+			);
+			path = BufferKitDemo;
+			sourceTree = "<group>";
+		};
+		9443BD5718EB9084009401A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9443BD5818EB9084009401A4 /* BufferKitDemo-Info.plist */,
+				9443BD5918EB9084009401A4 /* InfoPlist.strings */,
+				9443BD5C18EB9084009401A4 /* main.m */,
+				9443BD5E18EB9084009401A4 /* BufferKitDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9443BD7B18EB9084009401A4 /* BufferKitDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9443BD8118EB9084009401A4 /* BufferKitDemoTests.m */,
+				9443BD7C18EB9084009401A4 /* Supporting Files */,
+			);
+			path = BufferKitDemoTests;
+			sourceTree = "<group>";
+		};
+		9443BD7C18EB9084009401A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9443BD7D18EB9084009401A4 /* BufferKitDemoTests-Info.plist */,
+				9443BD7E18EB9084009401A4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9443BD8B18EB90A8009401A4 /* BufferKit */ = {
+			isa = PBXGroup;
+			children = (
+				9443BD8C18EB90C0009401A4 /* BufferKit.h */,
+				9443BD9018EB911F009401A4 /* Client */,
+			);
+			name = BufferKit;
+			path = ../BufferKit;
+			sourceTree = "<group>";
+		};
+		9443BD9018EB911F009401A4 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				9443BD9118EB9132009401A4 /* BFKClient.h */,
+				9443BD9218EB9132009401A4 /* BFKClient.m */,
+				9443BDD418EB9544009401A4 /* BFKClient+BFKUser.h */,
+				9443BDD518EB9544009401A4 /* BFKClient+BFKUser.m */,
+				9443BDD718EB9624009401A4 /* BFKClient+BFKProfiles.h */,
+				9443BDD818EB9624009401A4 /* BFKClient+BFKProfiles.m */,
+				9443BDDA18EB9725009401A4 /* BFKClient+BFKUpdates.h */,
+				9443BDDB18EB9725009401A4 /* BFKClient+BFKUpdates.m */,
+				9443BDDD18EB98B7009401A4 /* BFKClient+BFKInfo.h */,
+				9443BDDE18EB98B7009401A4 /* BFKClient+BFKInfo.m */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9443BD4C18EB9084009401A4 /* BufferKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9443BD8518EB9084009401A4 /* Build configuration list for PBXNativeTarget "BufferKitDemo" */;
+			buildPhases = (
+				2D5F233494D24BE0A1151D50 /* Check Pods Manifest.lock */,
+				9443BD4918EB9084009401A4 /* Sources */,
+				9443BD4A18EB9084009401A4 /* Frameworks */,
+				9443BD4B18EB9084009401A4 /* Resources */,
+				F188EC58A8784AECBF33CA50 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BufferKitDemo;
+			productName = BufferKitDemo;
+			productReference = 9443BD4D18EB9084009401A4 /* BufferKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9443BD7318EB9084009401A4 /* BufferKitDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9443BD8818EB9084009401A4 /* Build configuration list for PBXNativeTarget "BufferKitDemoTests" */;
+			buildPhases = (
+				9443BD7018EB9084009401A4 /* Sources */,
+				9443BD7118EB9084009401A4 /* Frameworks */,
+				9443BD7218EB9084009401A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9443BD7A18EB9084009401A4 /* PBXTargetDependency */,
+			);
+			name = BufferKitDemoTests;
+			productName = BufferKitDemoTests;
+			productReference = 9443BD7418EB9084009401A4 /* BufferKitDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9443BD4518EB9084009401A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BFK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Andrew Yates";
+				TargetAttributes = {
+					9443BD7318EB9084009401A4 = {
+						TestTargetID = 9443BD4C18EB9084009401A4;
+					};
+				};
+			};
+			buildConfigurationList = 9443BD4818EB9084009401A4 /* Build configuration list for PBXProject "BufferKitDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9443BD4418EB9084009401A4;
+			productRefGroup = 9443BD4E18EB9084009401A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9443BD4C18EB9084009401A4 /* BufferKitDemo */,
+				9443BD7318EB9084009401A4 /* BufferKitDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9443BD4B18EB9084009401A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9443BD6718EB9084009401A4 /* Main_iPad.storyboard in Resources */,
+				9443BD6F18EB9084009401A4 /* Images.xcassets in Resources */,
+				9443BD6418EB9084009401A4 /* Main_iPhone.storyboard in Resources */,
+				9443BD5B18EB9084009401A4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9443BD7218EB9084009401A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9443BD8018EB9084009401A4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D5F233494D24BE0A1151D50 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F188EC58A8784AECBF33CA50 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9443BD4918EB9084009401A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9443BDDC18EB9725009401A4 /* BFKClient+BFKUpdates.m in Sources */,
+				9443BDD918EB9624009401A4 /* BFKClient+BFKProfiles.m in Sources */,
+				9443BD6118EB9084009401A4 /* BFKAppDelegate.m in Sources */,
+				9443BD6D18EB9084009401A4 /* BFKDetailViewController.m in Sources */,
+				9443BD9318EB9132009401A4 /* BFKClient.m in Sources */,
+				9443BDDF18EB98B7009401A4 /* BFKClient+BFKInfo.m in Sources */,
+				9443BD6A18EB9084009401A4 /* BFKMasterViewController.m in Sources */,
+				9443BDD618EB9544009401A4 /* BFKClient+BFKUser.m in Sources */,
+				9443BD5D18EB9084009401A4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9443BD7018EB9084009401A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9443BD8218EB9084009401A4 /* BufferKitDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9443BD7A18EB9084009401A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9443BD4C18EB9084009401A4 /* BufferKitDemo */;
+			targetProxy = 9443BD7918EB9084009401A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9443BD5918EB9084009401A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9443BD5A18EB9084009401A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9443BD6218EB9084009401A4 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9443BD6318EB9084009401A4 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9443BD6518EB9084009401A4 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9443BD6618EB9084009401A4 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9443BD7E18EB9084009401A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9443BD7F18EB9084009401A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9443BD8318EB9084009401A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9443BD8418EB9084009401A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9443BD8618EB9084009401A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1664945EC58A47E9A16A58C5 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BufferKitDemo/BufferKitDemo-Prefix.pch";
+				INFOPLIST_FILE = "BufferKitDemo/BufferKitDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9443BD8718EB9084009401A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1664945EC58A47E9A16A58C5 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BufferKitDemo/BufferKitDemo-Prefix.pch";
+				INFOPLIST_FILE = "BufferKitDemo/BufferKitDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9443BD8918EB9084009401A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BufferKitDemo.app/BufferKitDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BufferKitDemo/BufferKitDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BufferKitDemoTests/BufferKitDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9443BD8A18EB9084009401A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BufferKitDemo.app/BufferKitDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BufferKitDemo/BufferKitDemo-Prefix.pch";
+				INFOPLIST_FILE = "BufferKitDemoTests/BufferKitDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9443BD4818EB9084009401A4 /* Build configuration list for PBXProject "BufferKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9443BD8318EB9084009401A4 /* Debug */,
+				9443BD8418EB9084009401A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9443BD8518EB9084009401A4 /* Build configuration list for PBXNativeTarget "BufferKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9443BD8618EB9084009401A4 /* Debug */,
+				9443BD8718EB9084009401A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9443BD8818EB9084009401A4 /* Build configuration list for PBXNativeTarget "BufferKitDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9443BD8918EB9084009401A4 /* Debug */,
+				9443BD8A18EB9084009401A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9443BD4518EB9084009401A4 /* Project object */;
+}
