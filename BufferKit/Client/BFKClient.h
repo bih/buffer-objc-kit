@@ -12,10 +12,12 @@
 @interface BFKClient : AFHTTPRequestOperationManager
 
 + (NSURL *)APIBaseURL;
-
 + (BFKClient *)sharedClient;
 
 @property (assign, nonatomic) NSInteger perPage;
-@property (assign, nonatomic) NSString *accessToken;
+@property (readonly) NSString *accessToken;
+
+// Instance-based access token setter
+- (void)setAccessToken:(NSString *)accessToken;
 
 @end

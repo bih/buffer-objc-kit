@@ -7,9 +7,7 @@
 //
 
 #import "BFKMasterViewController.h"
-
 #import "BFKDetailViewController.h"
-
 #import "BufferKit.h"
 
 @interface BFKMasterViewController () {
@@ -39,7 +37,10 @@
     self.detailViewController = (BFKDetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
     
     BFKClient *bufferClient = [BFKClient sharedClient];
-    bufferClient.accessToken = @"";
+    
+    // Insert access token
+    [bufferClient setAccessToken:@""];
+    
     [bufferClient fetchUserWithSuccess:^(id responseObject) {
         NSLog(@"res %@", responseObject);
     } failure:^(NSError *error) {

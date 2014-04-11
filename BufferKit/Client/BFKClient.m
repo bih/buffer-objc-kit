@@ -10,6 +10,8 @@
 
 @implementation BFKClient
 
+@synthesize accessToken = _accessToken;
+
 + (BFKClient *)sharedClient {
     static BFKClient *_sharedClient = nil;
     static dispatch_once_t oncePredicate;
@@ -25,6 +27,15 @@
 
 + (NSURL *)APIBaseURL {
 	return [NSURL URLWithString:@"https://api.bufferapp.com/1/"];
+}
+
+- (void)setAccessToken:(NSString *)accessToken {
+    if(accessToken == nil || [accessToken length] == 0) {
+        [NSException raise:@"BFKInvalidAccessToken" format:@"You have provided an invalid Buffer access token."];
+    }
+    
+    // Logs and updates the access token.
+    NSLog(@"[BufferKit] Access token set: %@", _accessToken = accessToken);
 }
 
 #pragma mark -
